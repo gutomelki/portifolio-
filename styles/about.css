@@ -19,7 +19,6 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
-    
 }
 
 .cabecalho {
@@ -45,78 +44,58 @@ body {
 }
 
 .apresentacao {
-    padding: 8% 15%;
+    padding: 9% 15%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 82px;
 }
 
-.apresentacao__conteudo {
+.apresentacao__curriculo {
     width: 50%;
+    height: 2000px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
   
 }
 
-.apresentacao__conteudo__titulo {
-    font-size: 4rem;
-    font-family:var(--fonte-primaria);
-}
-
 .titulo {
-    color: var(--cor-secundaria);
+    font-size: 2rem;
+    font-family:var(--fonte-primaria);
+    color: var(--cor-terciaria);
 }
 
-.titulo-destaque {
-    color: var(--cor-terciaria);
-    font-size: 1.875rem;
-    
-} 
-
-.apresentacao__conteudo__texto__home {
-    font-size: 1.375rem;
+.conteudo {
+    font-size: 1.2rem;
     font-family: var(--fonte-secundaria);
 }
 
+.conteudo-destaque {
+    color: var(--cor-secundaria);
+    font-size: 1.4rem;
+    
+} 
 
 .apresentacao__links {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     gap: 32px;
 }
 
-.apresentacao__links__subtitulo{
+.apresentacao__links__navegacao {
+    text-decoration: none;
+    font-size: 1.4rem;
     font-family: var(--fonte-secundaria);
-    font-weight: 400;
-    font-size: 1.5rem;
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+    width: 70%;
     display: flex;
     justify-content: center;
 }
-
-.apresentacao__links__navegacao {
-    display: flex;
-    justify-content:center;
-    gap: 16px;
-    border: 2px solid var(--cor-terciaria);
-    width: 50%;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 21.5px 0; 
-    text-decoration: none;
-    color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
-
-}
-
 .apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover-);
-    
 }
 
 .foto_perfil{
